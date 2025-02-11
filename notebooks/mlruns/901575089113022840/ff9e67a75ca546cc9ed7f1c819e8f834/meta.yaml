@@ -1,0 +1,15 @@
+artifact_uri: file:///home/enat/KAIM-week89/notebooks/mlruns/901575089113022840/ff9e67a75ca546cc9ed7f1c819e8f834/artifacts
+end_time: 1739212116554
+entry_point_name: ''
+experiment_id: '901575089113022840'
+lifecycle_stage: active
+run_id: ff9e67a75ca546cc9ed7f1c819e8f834
+run_name: melodic-hen-722
+run_uuid: ff9e67a75ca546cc9ed7f1c819e8f834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739212110023
+status: 3
+tags: []
+user_id: enat

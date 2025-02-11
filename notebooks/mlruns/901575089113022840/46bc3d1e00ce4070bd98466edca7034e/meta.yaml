@@ -1,0 +1,15 @@
+artifact_uri: file:///home/enat/KAIM-week89/notebooks/mlruns/901575089113022840/46bc3d1e00ce4070bd98466edca7034e/artifacts
+end_time: 1739251370820
+entry_point_name: ''
+experiment_id: '901575089113022840'
+lifecycle_stage: active
+run_id: 46bc3d1e00ce4070bd98466edca7034e
+run_name: calm-colt-339
+run_uuid: 46bc3d1e00ce4070bd98466edca7034e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739249704970
+status: 3
+tags: []
+user_id: enat

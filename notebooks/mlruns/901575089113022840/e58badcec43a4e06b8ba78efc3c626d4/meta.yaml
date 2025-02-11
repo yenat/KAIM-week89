@@ -1,0 +1,15 @@
+artifact_uri: file:///home/enat/KAIM-week89/notebooks/mlruns/901575089113022840/e58badcec43a4e06b8ba78efc3c626d4/artifacts
+end_time: 1739252325633
+entry_point_name: ''
+experiment_id: '901575089113022840'
+lifecycle_stage: active
+run_id: e58badcec43a4e06b8ba78efc3c626d4
+run_name: suave-lynx-743
+run_uuid: e58badcec43a4e06b8ba78efc3c626d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739251370821
+status: 3
+tags: []
+user_id: enat

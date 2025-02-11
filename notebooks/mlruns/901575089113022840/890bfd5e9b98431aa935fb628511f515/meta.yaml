@@ -1,0 +1,15 @@
+artifact_uri: file:///home/enat/KAIM-week89/notebooks/mlruns/901575089113022840/890bfd5e9b98431aa935fb628511f515/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '901575089113022840'
+lifecycle_stage: active
+run_id: 890bfd5e9b98431aa935fb628511f515
+run_name: secretive-colt-259
+run_uuid: 890bfd5e9b98431aa935fb628511f515
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739211372306
+status: 1
+tags: []
+user_id: enat
