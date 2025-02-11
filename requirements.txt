@@ -1,4 +1,8 @@
-pandas
 numpy
+pandas
 scikit-learn
+joblib
 matplotlib
+shap
+lime
+scipy
