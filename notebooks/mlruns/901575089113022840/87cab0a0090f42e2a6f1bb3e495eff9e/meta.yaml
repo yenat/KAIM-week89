@@ -1,0 +1,15 @@
+artifact_uri: file:///home/enat/KAIM-week89/notebooks/mlruns/901575089113022840/87cab0a0090f42e2a6f1bb3e495eff9e/artifacts
+end_time: 1741463688394
+entry_point_name: ''
+experiment_id: '901575089113022840'
+lifecycle_stage: active
+run_id: 87cab0a0090f42e2a6f1bb3e495eff9e
+run_name: thoughtful-fowl-795
+run_uuid: 87cab0a0090f42e2a6f1bb3e495eff9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741463375278
+status: 3
+tags: []
+user_id: enat
