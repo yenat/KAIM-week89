@@ -1,7 +1,9 @@
+# test_data_preprocessing.py
 import unittest
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
+from sklearn.model_selection import train_test_split
 
 class TestDataPreprocessing(unittest.TestCase):
 
@@ -34,7 +36,14 @@ class TestDataPreprocessing(unittest.TestCase):
             remainder='passthrough'
         )
 
-        cls.X_fraud = preprocessor.fit_transform(cls.fraud_data.drop(columns=['class']))
+        X = cls.fraud_data.drop(columns=['class'])
+        y = cls.fraud_data['class'].values
+
+        cls.X_fraud = preprocessor.fit_transform(X)
+        cls.y_fraud = y
+
+        # Split the data into training and testing sets
+        cls.X_fraud_train, cls.X_fraud_test, cls.y_fraud_train, cls.y_fraud_test = train_test_split(cls.X_fraud, cls.y_fraud, test_size=0.2, random_state=42)
 
     def test_data_preprocessing(self):
         # Check if the data preprocessing steps are correct
