@@ -110,4 +110,5 @@ python3 -m unittest discover tests/
 ## Conclusion
 
 This project aims to provide a comprehensive solution for detecting and analyzing fraud in e-commerce and banking transactions. By leveraging Flask for the backend, Dash for visualizations, and Jupyter notebooks for exploratory data analysis and model building, we can achieve real-time fraud detection and continuous performance monitoring.
+For further information, refert to the report found [here] (https://medium.com/@yenatshif/fraud-detection-for-e-commerce-and-banking-transactions-8b7d595af2ea)
 ```
