@@ -15,7 +15,7 @@ This project involves:
   - Geolocation analysis by mapping IP addresses to countries
   
 - **Building and Training Machine Learning Models to Detect Fraud**:
-  - Selecting appropriate algorithms
+  - Selecting appropriate algorithms:Random Forest, Decision trees, Gradient boosting, MLP and LSTM.
   - Training and tuning models
   - Handling imbalanced data
   
@@ -36,7 +36,7 @@ git clone https://github.com/yenat/KAIM-week89.git
 
 cd KAIM-week89
 jupyter notebook notebooks/task1.ipynb
-jupyter notebook notebooks/task2.ipynb
+jupyter notebook notebooks/task2_enhanced.ipynb
 jupyter notebook notebooks/task3.ipynb
 ```
 
@@ -74,6 +74,38 @@ The Flask backend provides the following API endpoints:
 - `/fraud_geography`: Returns geographic analysis of fraud cases
 - `/fraud_devices`: Returns fraud cases by devices
 - `/fraud_browsers`: Returns fraud cases by browsers
+
+
+## Testing
+We have added several test functions to ensure the robustness and reliability of our models:
+
+**TestDataPreprocessing**: Checks if data preprocessing steps are correctly implemented.
+
+**TestMissingValues**: Ensures that there are no missing values in the processed dataset.
+
+**TestClassImbalance**: Ensures the target variable is not highly imbalanced.
+
+**TestDataLeakage**: Ensures no overlap between training and testing datasets.
+
+**TestModelTraining**: Verifies that the model training process runs without errors.
+
+**TestModelEvaluation**: Evaluates model performance using metrics such as accuracy, precision, recall, and F1-score.
+
+**TestModelOverfitting**: Checks if the model is overfitting by comparing training and testing performance.
+
+**TestBaselineModelPerformance**: Compares model performance against a baseline (dummy classifier).
+
+**TestMlflowLogging**: Verifies that model training and evaluation metrics are correctly logged using MLflow.
+
+**TestFeatureImportance**: Ensures that feature importance is correctly calculated and interpretable.
+
+
+
+```bash
+# Run the all the tests as follows
+python3 -m unittest discover tests/
+
+```
 
 ## Conclusion
 
