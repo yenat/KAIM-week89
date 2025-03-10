@@ -6,5 +6,13 @@ matplotlib
 shap
 lime
 scipy
-flask 
+flask
 dash
+tensorflow               
+keras                    
+xgboost                  
+mlflow                  
+seaborn                  
+plotly                  
+python-dotenv           
+         
